@@ -21,8 +21,8 @@ const Logos = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={logos.scene}
-        scale={isMobile ? 0.3 : 0.4}
-        position={isMobile ? [0, 0, -2.2] : [0, 0, 0]}
+        scale={isMobile ? 0.2 : 0.4}
+        position={isMobile ? [0, 0, 0] : [0, 0, 0]}
         rotation={[0, 0, 0]}
       />
     </mesh>
@@ -34,7 +34,7 @@ const LogoCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 700px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);

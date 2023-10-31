@@ -15,7 +15,6 @@ const Tech = () => {
           </h2>
         </div>
       </div>
-
       <LogoCanvas />
     </section>
   );
