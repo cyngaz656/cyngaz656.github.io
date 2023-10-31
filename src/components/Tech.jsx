@@ -1,19 +1,24 @@
-import React from "react";
+import { motion } from "framer-motion";
 
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { styles } from "../styles";
+import { LogoCanvas } from "./canvas";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+    <section className={`relative w-full h-screen mx-auto`}>
+      <div
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+      >
+        <div>
+          <h2 className={`${styles.sectionHeadText} text-white`}>
+            My Skills.
+          </h2>
         </div>
-      ))}
-    </div>
+      </div>
+
+      <LogoCanvas />
+    </section>
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default Tech;

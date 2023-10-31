@@ -23,12 +23,29 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import HKUST from "./company/HKUST.svg";
+import fyp from "./fyp.png";
+import metamory from "./company/metamory.png";
+import metaprint from "./company/Metaprintlogo.png";
+import youtube from "./company/Youtube_logo.png"
+import link from "./hyperlink.png"
+import metaverse from "./metaverse.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import mia1 from "./mia1.png";
+import mia2 from "./mia2.png";
+import mia3 from "./mia3.png";
+import mia4 from "./mia4.png";
+import Garden from "./Garden.png";
+import table from "./table.jpeg";
+import multiTool from "./multiTool.png";
+import miterSaw from "./MiterSaw.png";
+import blade from "./blade.png";
+import drillPress from "./drillPress.png";
+import musicBox from "./musicBox.png";
+import sketchfab from "./sketchfab.png";
+import AIcar from "./AIcar.png";
+import hkust from "./HKUST.jpeg";
 
 export {
   logo,
@@ -54,9 +71,26 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
+  HKUST,
+  fyp,
+  metaverse,
+  metamory,
+  metaprint,
+  youtube,
   jobit,
-  tripguide,
+  mia1,
+  mia2,
+  mia3,
+  mia4,
+  Garden,
+  table,
+  link,
+  multiTool,
+  miterSaw,
+  blade,
+  drillPress,
+  musicBox,
+  sketchfab,
+  AIcar,
+  hkust,
 };
