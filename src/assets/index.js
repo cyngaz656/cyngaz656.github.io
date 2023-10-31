@@ -45,7 +45,7 @@ import drillPress from "./drillPress.png";
 import musicBox from "./musicBox.png";
 import sketchfab from "./sketchfab.png";
 import AIcar from "./AIcar.png";
-import hkust from "./HKUST.jpeg";
+import hkust from "./hkust.jpeg";
 
 export {
   logo,
