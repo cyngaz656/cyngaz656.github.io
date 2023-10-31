@@ -82,7 +82,7 @@ import {
       description:
       [
         "A 3D game related to the daily story of the Engineering Students in HKUST. In this project,",
-        " I have acquired the skills to create realistic 3D maps, design enemy game assets through meshing and animation, as well as efficiently divide tasks between the developer and modeling teams.",      
+        " I have acquired the skills to create an open-world 3D map, design enemy game assets through meshing and animation, as well as efficiently divide tasks between the developer and modeling teams.",      
       ],
       tags: [
         {
@@ -109,7 +109,7 @@ import {
       name: "CCC Rotary Secondary School Metaverse Scene and Avatar Creation",
       description:
       [
-        "Metaverse that includes five school-related scenes and student avatar, ",
+        "Metaverse that includes five school-related scenes and student avatar. ",
         "This project utilizes 3D scanning and 3D modeling to reappear the facilities in the school.",
       ],
       tags: [
@@ -162,7 +162,7 @@ import {
     {
       name: "COMP4441 Mia3",
       description:
-        "This project utilizes Blender to create a MMD of Team Rocket. I have used models and motion files from online to let them dance by following the music.",
+        "This project utilizes Blender to create a MMD of Team Rocket.",
       tags: [
         {
           name: "Adobe Premiere Pro",
