@@ -87,7 +87,7 @@ import {
       tags: [
         {
           name: "Unity",
-          color: "purple-text-gradient",
+          color: "light-yellow-text-gradient",
         },
         {
           name: "Blender",
