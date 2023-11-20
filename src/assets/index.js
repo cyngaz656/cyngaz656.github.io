@@ -42,6 +42,7 @@ import multiTool from "./multiTool.png";
 import miterSaw from "./MiterSaw.png";
 import blade from "./blade.png";
 import drillPress from "./drillPress.png";
+import drum from "./drumMachine.png";
 import musicBox from "./musicBox.png";
 import sketchfab from "./sketchfab.png";
 import AIcar from "./AIcar.png";
@@ -89,6 +90,7 @@ export {
   miterSaw,
   blade,
   drillPress,
+  drum,
   musicBox,
   sketchfab,
   AIcar,

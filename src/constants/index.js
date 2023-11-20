@@ -15,6 +15,7 @@ import {
     miterSaw,
     blade,
     drillPress,
+    drum,
     musicBox,
     threejs,
     AIcar,
@@ -332,6 +333,27 @@ import {
       ],
       image: drillPress,
       source_code_link: "https://youtu.be/5eiBxO2Fwn4",
+    },
+    {
+      name: "Drum Machine",
+      description:
+        "This project is to develop drum machine that allows users to create their own beats by clicking the squares on the drum pad or using keyboard shortcut. The 3D drum will have animation according to different pitch.",
+      tags: [
+        {
+          name: "html",
+          color: "white-text-gradient",
+        },
+        {
+          name: "three.js",
+          color: "white-text-gradient",
+        },
+        {
+          name: "midi.js",
+          color: "white-text-gradient",
+        },
+      ],
+      image: drum,
+      source_code_link: "https://youtu.be/6oIl41U3ubA",
     },
   ];
   
